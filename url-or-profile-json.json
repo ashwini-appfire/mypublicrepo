@@ -1,0 +1,25 @@
+{
+  "rows": [
+    {
+      "__proto__": "proto-string-not-an-object",
+      "title": "<img src=x onerror=\"console.log('ATV-XSS')\">",
+      "summary": "<svg onload=\"console.log('ATV-XSS')\">",
+      "note": "\"><script>console.log('ATV-XSS')</script>",
+      "linkish": "javascript:console.log('ATV-XSS')"
+    },
+    {
+      "title": "Second row",
+      "summary": "plain",
+      "note": "plain",
+      "linkish": "https://example.com"
+    }
+  ],
+  "store": {
+    "book": [
+      {
+        "title": "<img src=x onerror=\"console.log('ATV-XSS')\">",
+        "price": 1
+      }
+    ]
+  }
+}

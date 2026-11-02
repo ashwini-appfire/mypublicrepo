@@ -1,0 +1,8 @@
+[
+  {
+    "__proto__": {
+      "polluted": "yes"
+    },
+    "name": "<svg onload=\"console.log('ATV-XSS')\">"
+  }
+]

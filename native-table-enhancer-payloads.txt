@@ -1,0 +1,19 @@
+Paste each line into a separate table cell when building the Native Table Enhancer body manually.
+
+col1_header
+<img src=x onerror="console.log('ATV-XSS')">
+
+col2_header
+<svg onload="console.log('ATV-XSS')">
+
+row1_col1
+"><script>console.log('ATV-XSS')</script>
+
+row1_col2
+javascript:console.log('ATV-XSS')
+
+row2_col1
+plain cell
+
+row2_col2
+https://example.com

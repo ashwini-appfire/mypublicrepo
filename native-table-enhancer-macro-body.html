@@ -1,0 +1,19 @@
+<!-- Optional HTML paste for Native Table Enhancer. Prefer native-table-enhancer-payloads.txt if the editor strips tags. -->
+<table>
+  <thead>
+    <tr>
+      <th>&lt;img src=x onerror="console.log('ATV-XSS')"&gt;</th>
+      <th>&lt;svg onload="console.log('ATV-XSS')"&gt;</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>&quot;&gt;&lt;script&gt;console.log('ATV-XSS')&lt;/script&gt;</td>
+      <td>javascript:console.log('ATV-XSS')</td>
+    </tr>
+    <tr>
+      <td>plain cell</td>
+      <td>https://example.com</td>
+    </tr>
+  </tbody>
+</table>

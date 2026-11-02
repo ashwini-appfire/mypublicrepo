@@ -1,0 +1,13 @@
+{
+  "marker": "ATV-XSS",
+  "payloads": {
+    "img": "<img src=x onerror=\"console.log('ATV-XSS')\">",
+    "svg": "<svg onload=\"console.log('ATV-XSS')\">",
+    "script": "\"><script>console.log('ATV-XSS')</script>",
+    "javascriptUrl": "javascript:console.log('ATV-XSS')"
+  },
+  "jsonRowsPaths": {
+    "valid": ["$", "$.rows", "$.store.book", "store.book"],
+    "invalid_eval": ["$..[?(@.constructor)]", "$.store.book[?(@.price>1)]", "$..[?(@.a>1)]"]
+  }
+}

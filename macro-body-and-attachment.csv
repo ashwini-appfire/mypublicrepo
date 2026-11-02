@@ -1,0 +1,3 @@
+label,payload_img,payload_svg,payload_script,payload_javascript_url
+row1,"<img src=x onerror=""console.log('ATV-XSS')"">","<svg onload=""console.log('ATV-XSS')"">","""><script>console.log('ATV-XSS')</script>",javascript:console.log('ATV-XSS')
+row2,plain-text,also-plain,=1+1,https://example.com/?q=safe
